@@ -1,7 +1,87 @@
 ([
 (
+source: Cargo(()),
+name: "bat",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "blindspot",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "cargo-update",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "du-dust",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "exa",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "fd-find",
+flags: [],
+),
+(
 source: Brew(()),
 name: "gnupg",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "hyperfine",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "procs",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "ripgrep",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "rustscan",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "sd",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "starship",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "tealdeer",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "tokei",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "verco",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "zoxide",
 flags: [],
 ),
 ])
