@@ -50,6 +50,11 @@ name: "hyperfine",
 flags: [],
 ),
 (
+source: Brew(()),
+name: "php7",
+flags: [],
+),
+(
 source: Cargo(()),
 name: "procs",
 flags: [],
