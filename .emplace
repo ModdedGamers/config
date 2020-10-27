@@ -1,5 +1,10 @@
 ([
 (
+source: Brew(()),
+name: "apache2",
+flags: [],
+),
+(
 source: Cargo(()),
 name: "bat",
 flags: [],
