@@ -51,6 +51,11 @@ flags: [],
 ),
 (
 source: Brew(()),
+name: "php",
+flags: [],
+),
+(
+source: Brew(()),
 name: "php7",
 flags: [],
 ),
