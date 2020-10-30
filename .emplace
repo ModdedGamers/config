@@ -21,6 +21,11 @@ flags: [],
 ),
 (
 source: Brew(()),
+name: "ccat",
+flags: [],
+),
+(
+source: Brew(()),
 name: "cmus",
 flags: [],
 ),
