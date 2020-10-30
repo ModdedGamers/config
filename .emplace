@@ -41,6 +41,11 @@ flags: [],
 ),
 (
 source: Brew(()),
+name: "fzy",
+flags: [],
+),
+(
+source: Brew(()),
 name: "gnupg",
 flags: [],
 ),
@@ -52,11 +57,6 @@ flags: [],
 (
 source: Brew(()),
 name: "php",
-flags: [],
-),
-(
-source: Brew(()),
-name: "php7",
 flags: [],
 ),
 (
