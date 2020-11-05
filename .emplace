@@ -46,7 +46,17 @@ flags: [],
 ),
 (
 source: Brew(()),
+name: "freetype",
+flags: [],
+),
+(
+source: Brew(()),
 name: "fzy",
+flags: [],
+),
+(
+source: Brew(()),
+name: "gcc",
 flags: [],
 ),
 (
@@ -57,6 +67,21 @@ flags: [],
 (
 source: Cargo(()),
 name: "hyperfine",
+flags: [],
+),
+(
+source: Brew(()),
+name: "libpng",
+flags: [],
+),
+(
+source: Brew(()),
+name: "make",
+flags: [],
+),
+(
+source: Brew(()),
+name: "nasm",
 flags: [],
 ),
 (
@@ -105,6 +130,11 @@ name: "sd",
 flags: [],
 ),
 (
+source: Brew(()),
+name: "sdl2",
+flags: [],
+),
+(
 source: Cargo(()),
 name: "starship",
 flags: [],
@@ -122,6 +152,11 @@ flags: [],
 (
 source: Cargo(()),
 name: "verco",
+flags: [],
+),
+(
+source: Brew(()),
+name: "zlib",
 flags: [],
 ),
 (
