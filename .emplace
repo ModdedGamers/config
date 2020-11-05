@@ -26,6 +26,11 @@ flags: [],
 ),
 (
 source: Brew(()),
+name: "cmake",
+flags: [],
+),
+(
+source: Brew(()),
 name: "cmus",
 flags: [],
 ),
@@ -65,6 +70,11 @@ name: "gnupg",
 flags: [],
 ),
 (
+source: Brew(()),
+name: "hidapi",
+flags: [],
+),
+(
 source: Cargo(()),
 name: "hyperfine",
 flags: [],
@@ -72,6 +82,16 @@ flags: [],
 (
 source: Brew(()),
 name: "libpng",
+flags: [],
+),
+(
+source: Brew(()),
+name: "libpq",
+flags: [],
+),
+(
+source: Brew(()),
+name: "libsamplerate",
 flags: [],
 ),
 (
@@ -92,6 +112,11 @@ flags: [],
 (
 source: Brew(()),
 name: "php",
+flags: [],
+),
+(
+source: Brew(()),
+name: "pkg-config",
 flags: [],
 ),
 (
@@ -140,6 +165,11 @@ name: "sdl2",
 flags: [],
 ),
 (
+source: Brew(()),
+name: "sdl2_net",
+flags: [],
+),
+(
 source: Cargo(()),
 name: "starship",
 flags: [],
@@ -152,6 +182,11 @@ flags: [],
 (
 source: Cargo(()),
 name: "tokei",
+flags: [],
+),
+(
+source: Brew(()),
+name: "unixodbc",
 flags: [],
 ),
 (
