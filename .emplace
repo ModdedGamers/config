@@ -80,6 +80,16 @@ name: "ripgrep",
 flags: [],
 ),
 (
+source: Rustup(()),
+name: "rust-analysis",
+flags: [],
+),
+(
+source: Rustup(()),
+name: "rust-src",
+flags: [],
+),
+(
 source: Cargo(()),
 name: "rustscan",
 flags: [],
