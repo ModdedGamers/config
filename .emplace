@@ -166,7 +166,17 @@ flags: [],
 ),
 (
 source: Brew(()),
+name: "sdl2_image",
+flags: [],
+),
+(
+source: Brew(()),
 name: "sdl2_net",
+flags: [],
+),
+(
+source: Brew(()),
+name: "sdl2_ttf",
 flags: [],
 ),
 (
