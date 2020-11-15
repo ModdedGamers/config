@@ -130,6 +130,11 @@ name: "procs",
 flags: [],
 ),
 (
+source: Pip3(()),
+name: "pynvim",
+flags: [],
+),
+(
 source: Brew(()),
 name: "qt",
 flags: [],
