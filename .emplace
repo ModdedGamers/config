@@ -110,6 +110,11 @@ name: "nasm",
 flags: [],
 ),
 (
+source: Npm(()),
+name: "neovim",
+flags: [],
+),
+(
 source: Cargo(()),
 name: "oxyromon",
 flags: [],
