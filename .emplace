@@ -76,6 +76,11 @@ flags: [],
 ),
 (
 source: Brew(()),
+name: "gtk+3",
+flags: [],
+),
+(
+source: Brew(()),
 name: "hidapi",
 flags: [],
 ),
@@ -92,6 +97,11 @@ flags: [],
 (
 source: Brew(()),
 name: "libpq",
+flags: [],
+),
+(
+source: Brew(()),
+name: "librsvg",
 flags: [],
 ),
 (
