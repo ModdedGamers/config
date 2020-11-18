@@ -215,6 +215,11 @@ name: "tealdeer",
 flags: [],
 ),
 (
+source: Brew(()),
+name: "tmux",
+flags: [],
+),
+(
 source: Cargo(()),
 name: "tokei",
 flags: [],
