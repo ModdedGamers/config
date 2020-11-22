@@ -125,6 +125,11 @@ name: "neovim",
 flags: [],
 ),
 (
+source: Brew(()),
+name: "ox",
+flags: [],
+),
+(
 source: Cargo(()),
 name: "oxyromon",
 flags: [],
