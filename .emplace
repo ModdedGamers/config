@@ -220,6 +220,11 @@ name: "starship",
 flags: [],
 ),
 (
+source: Brew(()),
+name: "streamlink",
+flags: [],
+),
+(
 source: Cargo(()),
 name: "tealdeer",
 flags: [],
