@@ -150,6 +150,11 @@ name: "pkg-config",
 flags: [],
 ),
 (
+source: Npm(()),
+name: "pnpm",
+flags: [],
+),
+(
 source: Cargo(()),
 name: "procs",
 flags: [],
