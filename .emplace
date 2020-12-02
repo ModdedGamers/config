@@ -255,6 +255,11 @@ name: "verco",
 flags: [],
 ),
 (
+source: Pip3(()),
+name: "youtube-dl",
+flags: [],
+),
+(
 source: Brew(()),
 name: "zlib",
 flags: [],
