@@ -96,6 +96,11 @@ flags: [],
 ),
 (
 source: Brew(()),
+name: "imagemagick",
+flags: [],
+),
+(
+source: Brew(()),
 name: "libpng",
 flags: [],
 ),
