@@ -126,6 +126,11 @@ flags: [],
 ),
 (
 source: Brew(()),
+name: "mariadb",
+flags: [],
+),
+(
+source: Brew(()),
 name: "nasm",
 flags: [],
 ),
