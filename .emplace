@@ -156,6 +156,11 @@ flags: [],
 ),
 (
 source: Brew(()),
+name: "perl",
+flags: [],
+),
+(
+source: Brew(()),
 name: "php",
 flags: [],
 ),
