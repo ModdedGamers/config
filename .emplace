@@ -75,11 +75,6 @@ name: "gcc",
 flags: [],
 ),
 (
-source: Pip3(()),
-name: "git+https://github.com/streamlink/streamlink.git",
-flags: [],
-),
-(
 source: Brew(()),
 name: "gnupg",
 flags: [],
@@ -137,16 +132,6 @@ flags: [],
 (
 source: Brew(()),
 name: "nasm",
-flags: [],
-),
-(
-source: Npm(()),
-name: "neovim",
-flags: [],
-),
-(
-source: Brew(()),
-name: "ox",
 flags: [],
 ),
 (
