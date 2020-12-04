@@ -191,6 +191,11 @@ flags: [],
 ),
 (
 source: Rustup(()),
+name: "rls",
+flags: [],
+),
+(
+source: Rustup(()),
 name: "rust-analysis",
 flags: [],
 ),
