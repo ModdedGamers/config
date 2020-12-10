@@ -266,6 +266,11 @@ flags: [],
 ),
 (
 source: Brew(()),
+name: "tree",
+flags: [],
+),
+(
+source: Brew(()),
 name: "unixodbc",
 flags: [],
 ),
