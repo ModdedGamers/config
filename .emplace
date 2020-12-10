@@ -86,6 +86,11 @@ flags: [],
 ),
 (
 source: Brew(()),
+name: "hacker1024/hacker1024/coretemp",
+flags: [],
+),
+(
+source: Brew(()),
 name: "hidapi",
 flags: [],
 ),
