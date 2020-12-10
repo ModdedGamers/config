@@ -25,6 +25,11 @@ name: "blindspot",
 flags: [],
 ),
 (
+source: Pip3(()),
+name: "bpytop",
+flags: [],
+),
+(
 source: Cargo(()),
 name: "cargo-update",
 flags: [],
