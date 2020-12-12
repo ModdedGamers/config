@@ -100,6 +100,11 @@ name: "hidapi",
 flags: [],
 ),
 (
+source: Pip(()),
+name: "homeassistant",
+flags: [],
+),
+(
 source: Cargo(()),
 name: "hyperfine",
 flags: [],
