@@ -166,6 +166,11 @@ flags: [],
 ),
 (
 source: Brew(()),
+name: "php@7.4",
+flags: [],
+),
+(
+source: Brew(()),
 name: "pkg-config",
 flags: [],
 ),
