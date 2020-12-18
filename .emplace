@@ -1,6 +1,11 @@
 ([
 (
 source: Brew(()),
+name: "luajit",
+flags: ["--HEAD"],
+),
+(
+source: Brew(()),
 name: "neovim",
 flags: ["--HEAD"],
 ),
