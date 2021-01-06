@@ -250,6 +250,11 @@ name: "pynvim",
 flags: [],
 ),
 (
+source: Pip3(()),
+name: "pyyaml",
+flags: [],
+),
+(
 source: Pip(()),
 name: "pyyaml",
 flags: [],
