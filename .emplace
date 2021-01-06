@@ -16,6 +16,11 @@ flags: [],
 ),
 (
 source: Brew(()),
+name: "android-sdk",
+flags: [],
+),
+(
+source: Brew(()),
 name: "apache2",
 flags: [],
 ),
@@ -25,13 +30,28 @@ name: "bat",
 flags: [],
 ),
 (
+source: Pip3(()),
+name: "beets",
+flags: [],
+),
+(
 source: Cargo(()),
 name: "blindspot",
 flags: [],
 ),
 (
+source: Cargo(()),
+name: "bottom",
+flags: [],
+),
+(
 source: Pip3(()),
 name: "bpytop",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "cargo-trim",
 flags: [],
 ),
 (
@@ -52,6 +72,11 @@ flags: [],
 (
 source: Brew(()),
 name: "cmus",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "delta",
 flags: [],
 ),
 (
@@ -87,6 +112,16 @@ flags: [],
 (
 source: Brew(()),
 name: "gh",
+flags: [],
+),
+(
+source: Brew(()),
+name: "git",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "git-delta",
 flags: [],
 ),
 (
@@ -132,6 +167,11 @@ flags: [],
 (
 source: Brew(()),
 name: "libpq",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "libreddit",
 flags: [],
 ),
 (
@@ -181,6 +221,16 @@ flags: [],
 ),
 (
 source: Brew(()),
+name: "pinentry-mac",
+flags: [],
+),
+(
+source: Pip(()),
+name: "pip",
+flags: [],
+),
+(
+source: Brew(()),
 name: "pkg-config",
 flags: [],
 ),
@@ -200,6 +250,16 @@ name: "pynvim",
 flags: [],
 ),
 (
+source: Pip(()),
+name: "pyyaml",
+flags: [],
+),
+(
+source: Brew(()),
+name: "qemu",
+flags: [],
+),
+(
 source: Brew(()),
 name: "qt",
 flags: [],
@@ -210,8 +270,18 @@ name: "rclone",
 flags: [],
 ),
 (
+source: Brew(()),
+name: "redis",
+flags: [],
+),
+(
 source: Cargo(()),
 name: "ripgrep",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "ripgrep_all",
 flags: [],
 ),
 (
@@ -271,6 +341,11 @@ flags: [],
 ),
 (
 source: Cargo(()),
+name: "tab",
+flags: [],
+),
+(
+source: Cargo(()),
 name: "tealdeer",
 flags: [],
 ),
@@ -292,6 +367,11 @@ flags: [],
 (
 source: Brew(()),
 name: "unixodbc",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "uutils",
 flags: [],
 ),
 (
