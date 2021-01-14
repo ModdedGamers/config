@@ -335,6 +335,11 @@ name: "sdl2_ttf",
 flags: [],
 ),
 (
+source: Brew(()),
+name: "sphinx-doc",
+flags: [],
+),
+(
 source: Cargo(()),
 name: "starship",
 flags: [],
