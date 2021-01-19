@@ -360,6 +360,11 @@ name: "streamlink",
 flags: [],
 ),
 (
+source: Brew(()),
+name: "swftools",
+flags: [],
+),
+(
 source: Cargo(()),
 name: "tab",
 flags: [],
