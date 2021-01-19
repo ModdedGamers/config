@@ -126,6 +126,11 @@ flags: [],
 ),
 (
 source: Brew(()),
+name: "git-lfs",
+flags: [],
+),
+(
+source: Brew(()),
 name: "gnupg",
 flags: [],
 ),
