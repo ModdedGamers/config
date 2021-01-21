@@ -255,6 +255,11 @@ name: "pynvim",
 flags: [],
 ),
 (
+source: Brew(()),
+name: "python@3.8",
+flags: [],
+),
+(
 source: Pip3(()),
 name: "pyyaml",
 flags: [],
