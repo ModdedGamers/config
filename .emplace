@@ -285,6 +285,11 @@ name: "pyacoustid",
 flags: [],
 ),
 (
+source: Pip(()),
+name: "pylast",
+flags: [],
+),
+(
 source: Pip3(()),
 name: "pynvim",
 flags: [],
