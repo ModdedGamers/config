@@ -346,6 +346,11 @@ flags: [],
 ),
 (
 source: Pip(()),
+name: "setuptools",
+flags: [],
+),
+(
+source: Pip(()),
 name: "sphinx",
 flags: [],
 ),
@@ -407,6 +412,11 @@ flags: [],
 (
 source: Cargo(()),
 name: "verco",
+flags: [],
+),
+(
+source: Pip(()),
+name: "wheel",
 flags: [],
 ),
 (
