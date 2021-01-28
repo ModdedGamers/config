@@ -310,6 +310,11 @@ name: "redis",
 flags: [],
 ),
 (
+source: Pip(()),
+name: "requests",
+flags: [],
+),
+(
 source: Cargo(()),
 name: "ripgrep",
 flags: [],
