@@ -71,6 +71,11 @@ flags: [],
 ),
 (
 source: Brew(()),
+name: "chromaprint",
+flags: [],
+),
+(
+source: Brew(()),
 name: "cmake",
 flags: [],
 ),
