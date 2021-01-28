@@ -135,6 +135,11 @@ name: "git",
 flags: [],
 ),
 (
+source: Pip(()),
+name: "git+git://github.com/geigerzaehler/beets-check.git@master",
+flags: [],
+),
+(
 source: Cargo(()),
 name: "git-delta",
 flags: [],
