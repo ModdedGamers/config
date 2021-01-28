@@ -30,6 +30,11 @@ name: "bat",
 flags: [],
 ),
 (
+source: Pip(()),
+name: "beets",
+flags: [],
+),
+(
 source: Pip3(()),
 name: "beets",
 flags: [],
