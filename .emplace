@@ -175,6 +175,11 @@ name: "homeassistant",
 flags: [],
 ),
 (
+source: Pip(()),
+name: "https://github.com/beetbox/beets/tarball/master",
+flags: [],
+),
+(
 source: Cargo(()),
 name: "hyperfine",
 flags: [],
