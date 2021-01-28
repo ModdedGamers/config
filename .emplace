@@ -255,6 +255,11 @@ name: "procs",
 flags: [],
 ),
 (
+source: Pip(()),
+name: "pyacoustid",
+flags: [],
+),
+(
 source: Pip3(()),
 name: "pynvim",
 flags: [],
