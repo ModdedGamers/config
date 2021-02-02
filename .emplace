@@ -90,6 +90,11 @@ name: "cmus",
 flags: [],
 ),
 (
+source: Brew(()),
+name: "curl",
+flags: [],
+),
+(
 source: Cargo(()),
 name: "delta",
 flags: [],
@@ -462,6 +467,11 @@ flags: [],
 (
 source: Cargo(()),
 name: "verco",
+flags: [],
+),
+(
+source: Brew(()),
+name: "wget",
 flags: [],
 ),
 (
