@@ -395,6 +395,11 @@ name: "setuptools",
 flags: [],
 ),
 (
+source: Brew(()),
+name: "socat",
+flags: [],
+),
+(
 source: Pip(()),
 name: "sphinx",
 flags: [],
