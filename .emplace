@@ -246,6 +246,11 @@ flags: [],
 ),
 (
 source: Brew(()),
+name: "parallel",
+flags: [],
+),
+(
+source: Brew(()),
 name: "perl",
 flags: [],
 ),
