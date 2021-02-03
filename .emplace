@@ -435,6 +435,11 @@ name: "tab",
 flags: [],
 ),
 (
+source: Brew(()),
+name: "tccutil",
+flags: [],
+),
+(
 source: Cargo(()),
 name: "tealdeer",
 flags: [],
