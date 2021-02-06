@@ -305,6 +305,11 @@ name: "pylast",
 flags: [],
 ),
 (
+source: Pip(()),
+name: "pylint",
+flags: [],
+),
+(
 source: Pip3(()),
 name: "pynvim",
 flags: [],
