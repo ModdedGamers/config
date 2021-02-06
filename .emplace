@@ -196,6 +196,11 @@ flags: [],
 ),
 (
 source: Brew(()),
+name: "jq",
+flags: [],
+),
+(
+source: Brew(()),
 name: "libpng",
 flags: [],
 ),
