@@ -180,6 +180,11 @@ name: "homeassistant",
 flags: [],
 ),
 (
+source: Cargo(()),
+name: "ht",
+flags: [],
+),
+(
 source: Pip(()),
 name: "https://github.com/beetbox/beets/tarball/master",
 flags: [],
