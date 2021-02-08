@@ -121,6 +121,11 @@ flags: [],
 ),
 (
 source: Brew(()),
+name: "fzf",
+flags: [],
+),
+(
+source: Brew(()),
 name: "fzy",
 flags: [],
 ),
