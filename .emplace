@@ -61,6 +61,41 @@ flags: [],
 ),
 (
 source: Cargo(()),
+name: "cargo-audit",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "cargo-bloat",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "cargo-cache",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "cargo-deadlinks",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "cargo-release",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "cargo-sort-ck",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "cargo-tarpaulin",
+flags: [],
+),
+(
+source: Cargo(()),
 name: "cargo-trim",
 flags: [],
 ),
@@ -457,6 +492,11 @@ flags: [],
 (
 source: Cargo(()),
 name: "tab",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "tauri-bundler",
 flags: [],
 ),
 (
