@@ -205,6 +205,11 @@ name: "gtk+3",
 flags: [],
 ),
 (
+source: Pip(()),
+name: "gunicorn",
+flags: [],
+),
+(
 source: Brew(()),
 name: "hacker1024/hacker1024/coretemp",
 flags: [],
@@ -482,6 +487,11 @@ flags: [],
 (
 source: Brew(()),
 name: "streamlink",
+flags: [],
+),
+(
+source: Pip(()),
+name: "supervisor",
 flags: [],
 ),
 (
