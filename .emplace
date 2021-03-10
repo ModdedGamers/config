@@ -116,6 +116,11 @@ flags: [],
 ),
 (
 source: Brew(()),
+name: "clib",
+flags: [],
+),
+(
+source: Brew(()),
 name: "cmake",
 flags: [],
 ),
