@@ -111,6 +111,11 @@ flags: [],
 ),
 (
 source: Brew(()),
+name: "chezmoi",
+flags: [],
+),
+(
+source: Brew(()),
 name: "chromaprint",
 flags: [],
 ),
