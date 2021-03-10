@@ -300,6 +300,11 @@ name: "nasm",
 flags: [],
 ),
 (
+source: Npm(()),
+name: "nb.sh",
+flags: [],
+),
+(
 source: Cargo(()),
 name: "oxyromon",
 flags: [],
