@@ -560,6 +560,11 @@ name: "tokei",
 flags: [],
 ),
 (
+source: Cargo(()),
+name: "topgrade",
+flags: [],
+),
+(
 source: Brew(()),
 name: "tree",
 flags: [],
